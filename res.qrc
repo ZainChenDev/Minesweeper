@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/images/icon.png</file>
+        <file>resources/images/block.png</file>
+        <file>resources/images/flag.png</file>
+        <file>resources/images/mine.png</file>
+        <file>resources/images/number_1.png</file>
+        <file>resources/images/number_2.png</file>
+        <file>resources/images/number_3.png</file>
+        <file>resources/images/number_4.png</file>
+        <file>resources/images/number_5.png</file>
+        <file>resources/images/number_6.png</file>
+        <file>resources/images/number_7.png</file>
+        <file>resources/images/number_8.png</file>
+        <file>resources/images/emoji_0.png</file>
+        <file>resources/images/emoji_1.png</file>
+        <file>resources/images/emoji_2.png</file>
+        <file>resources/images/emoji_3.png</file>
+        <file>resources/images/emoji_4.png</file>
+        <file>resources/images/emoji_5.png</file>
+        <file>resources/images/emoji_6.png</file>
+        <file>resources/images/emoji_7.png</file>
+        <file>resources/images/emoji_8.png</file>
+        <file>resources/images/emoji_9.png</file>
+        <file>resources/images/emoji_10.png</file>
+        <file>resources/images/emoji_11.png</file>
+        <file>resources/images/emoji_12.png</file>
+        <file>resources/images/emoji_13.png</file>
+        <file>resources/images/emoji_win.png</file>
+        <file>resources/images/emoji_fail.png</file>
+        <file>resources/images/emoji_fail_icon.png</file>
+        <file>resources/images/emoji_fail_icon_hd.png</file>
+        <file>resources/images/custom.png</file>
+    </qresource>
+</RCC>

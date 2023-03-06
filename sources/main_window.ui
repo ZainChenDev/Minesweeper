@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>游戏</string>
+    </property>
+    <addaction name="newGameAction"/>
+    <addaction name="separator"/>
+    <addaction name="easyAction"/>
+    <addaction name="normalAction"/>
+    <addaction name="hardAction"/>
+    <addaction name="customAction"/>
+    <addaction name="separator"/>
+    <addaction name="aboutAction"/>
+    <addaction name="separator"/>
+    <addaction name="quitAction"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="newGameAction">
+   <property name="text">
+    <string>新游戏</string>
+   </property>
+  </action>
+  <action name="easyAction">
+   <property name="text">
+    <string>简单</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="quitAction">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="normalAction">
+   <property name="text">
+    <string>普通</string>
+   </property>
+  </action>
+  <action name="hardAction">
+   <property name="text">
+    <string>困难</string>
+   </property>
+  </action>
+  <action name="customAction">
+   <property name="text">
+    <string>自定义</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
