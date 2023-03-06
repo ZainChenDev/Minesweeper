@@ -41,9 +41,15 @@ public:
         quitBtn->setFont(font);
         textBrowser = new QTextBrowser(AboutDialog);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(150, 50, 221, 181));
+        textBrowser->setGeometry(QRect(120, 50, 271, 181));
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Calibri Light")});
+        font1.setPointSize(9);
+        font1.setBold(false);
+        font1.setItalic(false);
+        textBrowser->setFont(font1);
         textBrowser->setStyleSheet(QString::fromUtf8("background-color: rgba(255, 255, 255, 0);\n"
-"font: 900 10pt \"Arial Black\";"));
+"font: 300 9pt \"Calibri Light\";"));
 
         retranslateUi(AboutDialog);
 
@@ -60,17 +66,20 @@ public:
 "\n"
 "Powered by Qt 6.2.4\n"
 "\n"
+"Github: [ZainChenDev/Minesweeper](https://github.com/ZainChenDev/Minesweeper)\n"
+"\n"
 "", nullptr));
         textBrowser->setHtml(QCoreApplication::translate("AboutDialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Arial Black'; font-size:10pt; font-weight:900; font-style:normal;\">\n"
-"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Microsoft YaHei UI'; font-size:14pt; font-weight:700;\">Minesweeper v1.0</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Microsoft YaHei UI'; font-size:9pt; font-weight:400;\"><br /></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Microsoft YaHei UI'; font-size:9pt; fon"
-                        "t-weight:400;\"><br /></p>\n"
-"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Microsoft YaHei UI'; font-weight:400;\">Presented by Zain Chen</span></p>\n"
-"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Microsoft YaHei UI'; font-weight:400;\">Powered by Qt 6.2.4</span></p></body></html>", nullptr));
+"</style></head><body style=\" font-family:'Calibri Light'; font-size:9pt; font-weight:300; font-style:normal;\">\n"
+"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-weight:700;\">Minesweeper v1.0</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:400;\"><br /></p>\n"
+"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt; font-weight:400;\">Presented by Zain Chen</span></p>\n"
+"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margi"
+                        "n-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt; font-weight:400;\">Powered by Qt 6.2.4</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; font-weight:400;\"><br /></p>\n"
+"<p style=\" margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt; font-weight:400;\">Github: </span><a href=\"https://github.com/ZainChenDev/Minesweeper\"><span style=\" font-size:11pt; text-decoration: underline; color:#0000ff;\">ZainChenDev/Minesweeper</span></a></p></body></html>", nullptr));
     } // retranslateUi
 
 };
