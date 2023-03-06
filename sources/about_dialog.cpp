@@ -20,6 +20,7 @@ AboutDialog::AboutDialog(QWidget* parent) :
         close();
     });
 
+    ui->textBrowser->setOpenExternalLinks(true);
 }
 
 AboutDialog::~AboutDialog() {
