@@ -139,7 +139,8 @@ void BlockBoard::setNumber() {
                 }
                 int x = pos.x() + i;
                 int y = pos.y() + j;
-                if (!inBoard(QPoint(x, y))) {
+                // 如果不在网格内，或者是雷，或者数字已经大于0，则不需要设置数字
+                if (!inBoard(QPoint(x, y)) || blocks[x][y]->isMine() || blocks[x][y]->getNumber() > 0) {
                     continue;
                 }
                 blocks[x][y]->setNumber(calcNumber(blocks[x][y]));
